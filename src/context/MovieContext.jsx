@@ -13,6 +13,7 @@ const MovieProvider = ({children}) => {
 
     const [data,setData] = useState([])
     const {categoriaId} = useParams()
+    const [mode,setMode] = useState(false)
 
     useEffect(() => {
         const querydb = getFirestore();
@@ -29,7 +30,7 @@ const MovieProvider = ({children}) => {
     },[categoriaId]);
 
     return(
-        <MovieContext.Provider value={{data}}>
+        <MovieContext.Provider value={{data,mode,setMode}}>
             {children}
         </MovieContext.Provider>
     )

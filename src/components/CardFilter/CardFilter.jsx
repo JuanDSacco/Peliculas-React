@@ -2,11 +2,12 @@ import '../../css/cardFilter.css'
 
 const CardFilter = ({movie}) => {
     return(
-        <div className='containerCard' style={{display:'flex',flexDirection:'column',justifyContent:'space-evenly'}}>
-            <h1 className="h1CardFilter">{movie.titulo}</h1>
-            <img className="imgCardFilter" src={movie.imagen} alt='foto-portada'/>
-            <button className='btnCardFilter'>Ver Mas</button>
-        </div>
+        <section className='sectionCard'>
+            <div className='containerCard' style={{display:'flex',flexDirection:'column',justifyContent:'space-evenly',alignItems:'center'}}>
+                <img className="imgCardFilter" src={movie.imagen} alt='foto-portada'/>
+                <button className='btnCardFilter'>Ver Mas</button>
+            </div>
+        </section>
     )
 }
 

@@ -1,17 +1,58 @@
 .containerSagas{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    font-size: 40px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
 }
 
 .ulSagas{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     list-style: none;
+    justify-content: space-evenly;
+    width: 1400px;
+}
+
+.imgPortada{
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    border-radius: 5%;
+}
+
+.divSagas{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 
 .divSagas a{
     text-decoration: none;
-    color: black;
+    position: relative;
+}
+
+.divSagas a li{
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30%;
+    padding: 3px;
+}
+
+.divSagas a li:hover{
+    font-size: 40px;
+    transition: 0.5s;
+    background-color: #000;
+    color: rgb(209, 15, 15);
+}
+
+.h1Sagas{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #000;
+    color: rgb(209, 15, 15);
+    margin: 0;
+    text-decoration: underline;
+    font-size: 50px;
 }

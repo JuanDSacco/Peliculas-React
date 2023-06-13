@@ -1,0 +1,26 @@
+.FilterContainer{
+    text-align: center;
+    background-color: #000;
+}
+
+.h1Filter{
+    color: rgb(209, 15, 15);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-decoration: underline;
+}
+
+.imgPortadaHome{
+    height: 600px;
+    width: 1400px;
+}
+
+.btnFixed{
+    position: fixed;
+    bottom: 150px;
+    right: 13px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color:#fff;
+}

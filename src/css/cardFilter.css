@@ -1,3 +1,11 @@
+*{
+    color: #777070;
+}
+
+.sectionCard{
+    margin: 20px;
+}
+
 .h1CardFilter{
     font-size: 16px;
 }
@@ -10,11 +18,13 @@
 
 .btnCardFilter{
     width: 80px;
+    border: 1px solid #fff;
+    border-radius: 30%;
+    color: rgb(209, 15, 15);
 }
 
 .containerCard{
-    border: 2px solid black;
-    border-radius: 2%;
+    border: 1px solid #fff;
+    border-radius: 5%;
     padding: 20px;
-    
 }

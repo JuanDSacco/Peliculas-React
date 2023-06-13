@@ -2,7 +2,6 @@ import './App.css';
 import MovieProvider from './context/MovieContext';
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar/NavBar';
-import Home from './components/Routes/Home/Home';
 import Footer from './components/Footer/Footer';
 import FilterMovies from './components/Routes/FilterMovies/FilterMovies';
 import Sagas from './components/Sagas/Sagas';
@@ -20,12 +19,11 @@ function App() {
           <NavBar/>
           <MovieProvider>
             <Routes>
-              <Route path='/' element={<Home/>}/>
-              <Route path='/peliculas' element={<FilterMovies/>}/> 
+              <Route path='/' element={<FilterMovies/>}/> 
               <Route path='/sagas' element={<Sagas/>}/>
               <Route path='/sagas/el-señor-de-los-anillos' element={<SagaSeñorContainer/>}/>
-              <Route path='/sagas/starwars' element={<SagaSWContainer/>}/>
-              <Route path='/sagas/harrypotter' element={<SagaHPContainer/>}/>
+              <Route path='/sagas/star-wars' element={<SagaSWContainer/>}/>
+              <Route path='/sagas/harry-potter' element={<SagaHPContainer/>}/>
               <Route path='/nosotros' element={<Nosotros/>}/>
             </Routes>
           </MovieProvider>

@@ -2,10 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 0px;
+    background-color: #000;
+    text-align: center;
+}
+
+.h1Footer{
+    color: rgb(209, 15, 15);
 }
 
 .listaContactos{
     list-style: none;
     padding-bottom: 5px;
+}
+
+.containerFooter h2{
+    font-size: 16px;
+}
+
+.divListaRedes{
+    padding-top: 5px;
 }
