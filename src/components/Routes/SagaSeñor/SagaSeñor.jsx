@@ -1,8 +1,11 @@
-import SagaSeñorCard from "../SagaSeñorCard/SagaSeñorCard";
+import SagaSeñorCard from "../../Sagas/SagaSeñorCard/SagaSeñorCard";
+import { useMovieContext } from "../../../context/MovieContext";
 
 
-const SagaSeñor = ({dataSS}) => {
+const SagaSeñor = () => {
     
+    const {dataSS} = useMovieContext()
+
     return(
         <>
             <div>

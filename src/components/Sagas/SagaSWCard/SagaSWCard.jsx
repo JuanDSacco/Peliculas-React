@@ -1,10 +1,10 @@
 import '../../../css/cardFilter.css'
 
-const SagaSWCard = ({dataSS}) => {
+const SagaSWCard = ({dataSW}) => {
 
     return(
         <div className='containerCardSagas'>
-            <img className="imgCardFilter" src={dataSS.imagen} alt='foto-portada'/>
+            <img className="imgCardFilter" src={dataSW.imagen} alt='foto-portada'/>
             <button className='btnCardFilter'>Ver Mas</button>
         </div>
     )

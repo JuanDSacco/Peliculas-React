@@ -24,9 +24,13 @@
 }
 
 .containerCard{
-    border: 2px solid #fff;
+    border: 2px solid rgb(209, 15, 15);
     border-radius: 5%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* Card Sagas */ 
@@ -37,6 +41,7 @@
     align-items: center;
     padding: 20px;
     margin: 20px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(209, 15, 15);
     border-radius: 5%;
 }
+

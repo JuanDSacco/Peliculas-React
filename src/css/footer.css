@@ -5,10 +5,12 @@
     padding-top: 0px;
     background-color: #000;
     text-align: center;
+    border-top: 1px solid rgb(209, 15, 15);
 }
 
 .h1Footer{
     color: rgb(209, 15, 15);
+    font-size: 35px;
 }
 
 .listaContactos{
@@ -17,7 +19,8 @@
 }
 
 .containerFooter h2{
-    font-size: 16px;
+    font-size: 13px;
+    color: rgb(209, 15, 15);
 }
 
 .divListaRedes{

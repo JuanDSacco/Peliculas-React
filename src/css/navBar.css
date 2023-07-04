@@ -27,3 +27,7 @@
     color: #777070;
     font-size: 30px;
 }
+
+.liNavBar:hover{
+    color:rgb(209, 15, 15);
+}
