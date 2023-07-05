@@ -26,7 +26,6 @@ const FilterMovies = () => {
     }
 
     return(
-        
         <div className='FilterContainer'>
             <div>
                 <img src={Portada} alt='portada de inicio' className='imgPortadaHome'/>
@@ -36,7 +35,7 @@ const FilterMovies = () => {
             </div>
             <h1 className='h1Filter'>Escribe tu película favorita en el buscador para ver más detalles</h1>
             <div style={{paddingBottom:'50px'}}>
-            <input style={{width:'300px'}} type='text' value={buscar} onChange={handleChange}/>
+                <input style={{width:'300px'}} type='text' value={buscar} onChange={handleChange}/>
             </div>
             <div style={{display:'flex', flexDirection:'row',flexWrap:'wrap',justifyContent:'space-evenly'}}>
                 {filteredMovies.map((movie) => (

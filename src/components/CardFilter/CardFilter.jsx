@@ -6,7 +6,7 @@ const CardFilter = ({movie}) => {
         <section className='sectionCard'>
             <div className='containerCard'>
                 <img className="imgCardFilter" src={movie.imagen} alt='foto-portada'/>
-                <Link to={`/pelicula/${movie.id}`}><button className='btnCardFilter'>Ver Mas</button></Link>
+                <Link to={`/${movie.id}`}><button className='btnCardFilter'>Ver Mas</button></Link>
             </div>
         </section>
     )

@@ -12,7 +12,7 @@
 
 .imgPortadaHome{
     height: 600px;
-    width: 1400px;
+    width: max-content;
 }
 
 .btnFixed{

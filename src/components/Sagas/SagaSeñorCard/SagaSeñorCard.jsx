@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../../../css/cardFilter.css'
 
 const SagaSeñorCard = ({dataSS}) => {
@@ -5,7 +6,7 @@ const SagaSeñorCard = ({dataSS}) => {
     return(
         <div className='containerCardSagas'>
             <img className="imgCardFilter" src={dataSS.imagen} alt='foto-portada'/>
-            <button className='btnCardFilter'>Ver Mas</button>
+            <Link to={`/sagas/el-señor-de-los-anillos/${dataSS.id}`}><button className='btnCardFilter'>Ver Mas</button></Link>
         </div>
     )
 }

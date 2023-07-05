@@ -1,14 +1,12 @@
-
+import '../../../css/detalles.css'
 
 const Nosotros = () => {
     return(
         <>
-            <div style={{textAlign:'center'}}>
-                <p>Nuestro sitio brinda información sobre peliculas que nosotros consideramos
-                    <br/>
-                que tienen que ser vistas por cualquier amante del cine, en la pagina vas a encontrar 
-                    <br/>
-                detalles de las peliculas como elenco, resumen y thrillers</p>
+            <div className="divDetalles">
+                <p className="pDetalles">
+                    El archivo fue generado con create-react-app. Generé un Context donde utilicé Hooks para traer data {'(título, imagen, sinopsis y trhiller)'} desde Firebase/Firestore inyectada en el index y cada una de la pagina de las sagas. {'(son 4 colecciones por separado)'}. En este punto quiero aclarar que utilizar Context para este proyecto no fue, ni es lo mas adecuado a mi entender, la respuesta a esto es que la página fui desarrollándola a medida que las ideas surgían {'(suelo planificar contenido, estructura y estilo previo a comenzar, pero esta app tenia la única finalidad de repasar conceptos. Empezó a tomar forma y opté por terminarla)'}. Cree un DarkMode cuyo Hook se encuentra dentro del Context y el estilo se lo di aplicando css.   
+                </p>
             </div>
         </>
     )

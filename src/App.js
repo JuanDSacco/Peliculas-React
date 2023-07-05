@@ -9,7 +9,11 @@ import SagaSeñor from './components/Routes/SagaSeñor/SagaSeñor'
 import SagaHP from './components/Routes/SagaHP/SagaHP'
 import SagaSW from './components/Routes/SagaSW/SagaSW';
 import Nosotros from './components/Routes/Nosotros/Nosotros';
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import ItemDetailContainer from './components/Routes/ItemDetailContainer/ItemDetailContainer';
+import SWDetailContainer from './components/Routes/SWDetailContainer/SWDetailContainer';
+import HPDetailContainer from './components/Routes/HPDetailContainer/HPDetailContainer';
+import ESDLADetailContainer from './components/Routes/ESDLADetailContainer/ESDLADetailContainer';
+
 
 
 function App() {
@@ -24,8 +28,11 @@ function App() {
               <Route path='/sagas/el-señor-de-los-anillos' element={<SagaSeñor/>}/>
               <Route path='/sagas/harry-potter' element={<SagaHP/>}/>
               <Route path='/sagas/star-wars' element={<SagaSW/>}/>
-              <Route path='/nosotros' element={<Nosotros/>}/>
-              <Route path='/pelicula/:id' element={<ItemDetailContainer/>}/>
+              <Route path='/detalles' element={<Nosotros/>}/>
+              <Route path='/:id' element={<ItemDetailContainer/>}/>
+              <Route path='/sagas/star-wars/:id' element={<SWDetailContainer/>}/>
+              <Route path='/sagas/harry-potter/:id' element={<HPDetailContainer/>}/>
+              <Route path='/sagas/el-señor-de-los-anillos/:id' element={<ESDLADetailContainer/>}/>
             </Routes>
           </MovieProvider>
         <Footer/>

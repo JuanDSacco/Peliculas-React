@@ -1,7 +1,6 @@
 import SagaHPCard from '../../Sagas/SagaHPCard/SagaHPCard'
 import { useMovieContext } from "../../../context/MovieContext"
 
-
 const SagaHP = () => {
     
     const {dataHP} = useMovieContext()
