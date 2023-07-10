@@ -13,8 +13,6 @@ const MovieProvider = ({children}) => {
 
     const [data,setData] = useState([])
     const {categoriaId} = useParams()
-    
-    const [mode,setMode] = useState(false)
 
     /* Extraigo data para FilterMovies */
 
@@ -90,7 +88,7 @@ const MovieProvider = ({children}) => {
     },[categoriaIdSW])
 
     return(
-        <MovieContext.Provider value={{data,mode,setMode,dataSS,dataHP,dataSW}}>
+        <MovieContext.Provider value={{data,dataSS,dataHP,dataSW}}>
             {children}
         </MovieContext.Provider>
     )
