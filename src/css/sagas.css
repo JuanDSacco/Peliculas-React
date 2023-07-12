@@ -107,3 +107,32 @@
         font-size: 26px;
     }
 }
+
+@media only screen and (max-width:767px) and (min-width:576px){
+
+    .containerSagas{
+        height: 1200px;
+        justify-content: center;
+    }
+
+    .h1Sagas{
+        padding: 0;
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+
+    .imgPortada{
+        height: 350px;
+        width: 300px;
+        position: absolute;
+        border-radius: 5%;
+    }
+
+    .ulSagas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+}

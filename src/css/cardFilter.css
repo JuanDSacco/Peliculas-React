@@ -59,3 +59,18 @@
         padding: 10px;
     }
 }
+
+@media only screen and (max-width:767px) and (min-width:576px){
+
+    .imgCardFilter{
+        height: 350px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .containerCard{
+        border: 2px solid rgb(209, 15, 15);
+        border-radius: 5%;
+        padding: 10px;
+    }
+}

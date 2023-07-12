@@ -74,3 +74,22 @@
     }
 }
 
+@media only screen and (max-width:767px) and (min-width:576px){
+
+    .imgPortadaHome{
+        height: 300px;
+    }
+
+    .h1Filter{
+        font-size: 27px;
+        padding: 35px;
+    }
+
+    .btnFixed{
+        position: fixed;
+        bottom: 150px;
+        right: 45px;
+        height: 38px;
+        width: 38px;
+    }
+}
