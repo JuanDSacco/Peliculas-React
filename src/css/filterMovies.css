@@ -24,3 +24,32 @@
     border-radius: 50%;
     background-color:#fff;
 }
+
+.divBuscador{
+    padding-bottom: 50px;
+}
+
+.inputBuscador{
+    width: 300px;
+}
+
+.divCardFilter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width:1199px) and (min-width:992px){
+
+    .imgPortadaHome{
+        height: 500px;
+        width: max-content;
+    }
+
+    .h1Filter{
+        font-size: 35px;
+        padding: 35px;
+    }
+}
+

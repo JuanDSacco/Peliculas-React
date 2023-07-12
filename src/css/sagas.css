@@ -9,7 +9,7 @@
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    width: 1400px;
+    width: 100%;
 }
 
 .imgPortada{
@@ -64,5 +64,19 @@
         width: 350px;
         position: absolute;
         border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width:1199px) and (min-width:992px){
+
+    .imgPortada{
+        height: 300px;
+        width: 250px;
+        position: absolute;
+        border-radius: 5%;
+    }
+
+    .h1Sagas{
+        padding: 0;
     }
 }

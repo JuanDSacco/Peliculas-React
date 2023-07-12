@@ -34,10 +34,10 @@ const FilterMovies = () => {
                 <button className='btnFixed' onClick={handleClick}><FontAwesomeIcon icon={faUpLong}/></button>
             </div>
             <h1 className='h1Filter'>Escribe tu película favorita en el buscador para ver más detalles</h1>
-            <div style={{paddingBottom:'50px'}}>
-                <input style={{width:'300px'}} type='text' value={buscar} onChange={handleChange}/>
+            <div className='divBuscador'>
+                <input className='inputBuscador' type='text' value={buscar} onChange={handleChange}/>
             </div>
-            <div style={{display:'flex', flexDirection:'row',flexWrap:'wrap',justifyContent:'space-evenly'}}>
+            <div className='divCardFilter'>
                 {filteredMovies.map((movie) => (
                     <span key={movie.id}><CardFilter movie={movie}/></span>  
                 ))}
