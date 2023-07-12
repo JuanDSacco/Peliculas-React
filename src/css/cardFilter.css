@@ -45,3 +45,17 @@
     border-radius: 5%;
 }
 
+@media only screen and (max-width:991px) and (min-width:768px){
+
+    .imgCardFilter{
+        height: 300px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .containerCard{
+        border: 2px solid rgb(209, 15, 15);
+        border-radius: 5%;
+        padding: 10px;
+    }
+}

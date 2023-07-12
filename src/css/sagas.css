@@ -80,3 +80,30 @@
         padding: 0;
     }
 }
+
+@media only screen and (max-width:991px) and (min-width:768px){
+
+    .containerSagas{
+        height: 400px;
+    }
+
+    .imgPortada{
+        height: 280px;
+        width: 230px;
+        position: absolute;
+        border-radius: 5%;
+    }
+
+    .h1Sagas{
+        padding: 0;
+        font-size: 45px;
+    }
+
+    .divSagas a li{
+        font-size: 22px;
+    }
+    
+    .divSagas a li:hover{
+        font-size: 26px;
+    }
+}

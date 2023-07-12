@@ -28,3 +28,11 @@
     padding: 8px;
     font-size: 20px;
 }
+
+@media only screen and (max-width:991px) and (min-width:768px){
+
+    .imgDetail{
+        width: 250px;
+        height: 350px;
+    }
+}
