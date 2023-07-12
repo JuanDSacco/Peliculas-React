@@ -25,3 +25,16 @@
         padding-bottom: 25px;
     }
 }
+
+@media only screen and (max-width:575px) and (min-width:415px){
+
+    .divDetalles{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+
+    .pDetalles{
+        padding-top: 20px;
+    }
+}
