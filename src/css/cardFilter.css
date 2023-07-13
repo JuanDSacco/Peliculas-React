@@ -83,3 +83,16 @@
         margin-bottom: 20px;
     }
 }
+
+@media only screen and (max-width:414px) and (min-width:350px){
+
+    .sectionCard{
+        margin: 0px;
+    }
+
+    .imgCardFilter{
+        height: 300px;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+}

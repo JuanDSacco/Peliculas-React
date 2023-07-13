@@ -39,7 +39,7 @@ const FilterMovies = () => {
             </div>
             <div className='divCardFilter'>
                 {filteredMovies.map((movie) => (
-                    <span key={movie.id}><CardFilter movie={movie}/></span>  
+                    <div className='divCardFilter2' key={movie.id}><CardFilter movie={movie}/></div>  
                 ))}
             </div>
         </div>

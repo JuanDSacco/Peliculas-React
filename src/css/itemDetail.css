@@ -69,3 +69,22 @@
         font-size: 33px;
     }
 }
+
+@media only screen and (max-width:414px) and (min-width:350px){
+
+    .divDetail{
+        height: max-content;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .pDetail{
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 23px;
+    }
+
+    .h1Detail{
+        font-size: 33px;
+    }
+}
